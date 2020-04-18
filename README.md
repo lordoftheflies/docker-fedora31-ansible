@@ -1,6 +1,7 @@
 # Fedora 31 Ansible Test Image
 
-[![Build Status](https://travis-ci.com/lordoftheflies/docker-fedora31-ansible.svg?branch=master)](https://travis-ci.com/lordoftheflies/docker-fedora31-ansible) [![Docker Automated build](https://img.shields.io/docker/automated/lordoftheflies/docker-fedora31-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/lordoftheflies/docker-fedora31-ansible/)
+[![Build Status](https://travis-ci.com/lordoftheflies/docker-fedora31-ansible.svg?branch=master)](https://travis-ci.com/lordoftheflies/docker-fedora31-ansible) 
+[![Docker Automated build](https://img.shields.io/docker/automated/lordoftheflies/docker-fedora31-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/lordoftheflies/docker-fedora31-ansible/)
 
 Fedora 31 Docker container for Ansible playbook and role testing.
 
@@ -16,7 +17,7 @@ This image is built on Docker Hub automatically any time the upstream OS contain
 
   1. [Install Docker](https://docs.docker.com/engine/installation/).
   2. `cd` into this directory.
-  3. Run `docker build -t fedora31-ansible .`
+  3. Run `docker build -t docker-fedora31-ansible .`
 
 > Note: Switch between `master` and `testing` depending on whether you want the extra testing tools present in the resulting image.
 
